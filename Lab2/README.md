@@ -1,5 +1,6 @@
 ## File explanation
 - Questions: It contains the exercise description (in greek).
+- Answers: It contains the solutions.
 - `src_codes`: Source code and compiled files.
 - Makefile: Used for exercise execution.
 - `run_experiments.sh`: bash scipt to run all simulations.
