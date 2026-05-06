@@ -32,7 +32,7 @@ def get_stat(folder_path, stat_key):
                     val = parts[1]
                     try:
                         if "." in val:
-                            return f"{float(val):.4f}"
+                            return f"{float(val):.6f}"
                         return val
                     except ValueError:
                         return val

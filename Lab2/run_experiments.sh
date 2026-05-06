@@ -26,7 +26,7 @@ queue_sim() {
 
     # program-specific arguments
     if [ "$prog" == "cpu" ]; then
-        options="5000000"
+        options="500000"
     elif [ "$prog" == "mem" ]; then
         options="65536 2000000"
     fi
